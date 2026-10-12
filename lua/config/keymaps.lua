@@ -22,8 +22,8 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz", { silent = true, desc = "move down in bu
 vim.keymap.set("n", "n", "nzzzv", { silent = true, desc = "Next seach result cursor centered" })
 vim.keymap.set("n", "N", "Nzzzv", { silent = true, desc = "Previous search result cursor centered" })
 
-vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "Replace word under cursor globally" })
+vim.keymap.set("n", "<leader>r", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]], { desc = "Replace word under cursor globally" })
 vim.keymap.set("n", "<leader>X", "<cmd>!chmod +x %<CR>", { silent = true, desc = "makes file executable" })
 
-vim.keymap.set("n", "<leader>re", "<cmd>restart<cr>", { desc = "Restart config :restart)" })
+vim.keymap.set("n", "<leader>R", "<cmd>restart<cr>", { desc = "Restart config :restart)" })
 
